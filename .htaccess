@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/$
+RewriteRule ^.*$ https://dispar.burukab.go.id/ [R=301,L]
